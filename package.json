@@ -1,0 +1,21 @@
+{
+  "name": "cordova-plugin-toastutil",
+  "version": "1.0.0",
+  "description": "show toast",
+  "cordova": {
+    "id": "cordova-plugin-toastutil",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tengfei86/cordova-plugin-toastutil.git"
+  },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android",
+  ],
+  "license": "MIT"
+}
