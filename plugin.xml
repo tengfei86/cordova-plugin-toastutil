@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-toastutil" version="2.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>ToastPlugin</name>
+    <js-module src="www/ToastPlugin.js" name="ToastPlugin">
+        <clobbers target="cordova.plugins.toastplugin" />
+    </js-module>
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="ToastPlugin" >
+                <param name="android-package" value="cordovaplugin.bjzjns.com.cordovaplugin.ToastPlugin"/>
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+        <config-file target="AndroidManifest.xml" parent="/*">
+            <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+            <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+        </config-file>
+        <source-file src="src/android/ToastPlugin.java" target-dir="src/cordovaplugin/bjzjns/com/cordovaplugin" />
+    </platform>
+  </plugin>
