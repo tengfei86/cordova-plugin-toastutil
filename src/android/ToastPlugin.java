@@ -15,7 +15,7 @@ public class ToastPlugin extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
-        if (action.equals("deepblue")) {
+        if (action.equals("showToast")) {
             Toast.makeText(cordova.getActivity(),"AlphoGo",Toast.LENGTH_SHORT).show();
             callbackContext.success("Hens");
         }
