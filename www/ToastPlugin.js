@@ -1,7 +1,7 @@
 function ToastPlugin() {}
 
-ToastPlugin.prototype.showToast = function(succssCallback,errorCallback) {
-    return cordova.exec(successCallback,errorCallback,'ToastPlugin','showToast',[]);
+ToastPlugin.prototype.showToast = function() {
+    return cordova.exec(function(){},function(){},'ToastPlugin','showToast',[]);
 };
 
 var toastplugin = new ToastPlugin();
