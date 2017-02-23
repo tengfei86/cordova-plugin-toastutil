@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-toastutil",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "show toast",
   "cordova": {
     "id": "cordova-plugin-toastutil",
