@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-toastutil" version="1.0.7" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="cordova-plugin-toastutil" version="1.0.8" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>ToastPlugin</name>
 
     <platform name="android">
@@ -15,7 +15,7 @@
         </config-file>
         <source-file src="src/android/ToastPlugin.java" target-dir="src/cordovaplugin/bjzjns/com/cordovaplugin" />
         <js-module src="www/ToastPlugin.js" name="ToastPlugin">
-            <clobbers target="ToastPlugin" />
+            <clobbers target="cordova.plugins.toastutil" />
         </js-module>
     </platform>
   </plugin>
