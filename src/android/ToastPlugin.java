@@ -19,6 +19,7 @@ public class ToastPlugin extends CordovaPlugin {
             Toast.makeText(cordova.getActivity(),"AlphoGo",Toast.LENGTH_SHORT).show();
             callbackContext.success("Hens");
         }
+	Toast.makeText(cordova.getActivity(),"AlphoGo",Toast.LENGTH_SHORT).show();
         return false;
     }
 }
